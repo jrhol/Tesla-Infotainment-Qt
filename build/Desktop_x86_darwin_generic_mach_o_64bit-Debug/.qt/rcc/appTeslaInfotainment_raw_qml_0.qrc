@@ -1,0 +1,21 @@
+<RCC>
+  <qresource prefix="/qt/qml/TeslaInfotainment/">
+    <file alias="Main.qml">/Users/james/Repositories/QT/TeslaInfotainment/Main.qml</file>
+    <file alias="ui/RightScreen/RightScreen.qml">/Users/james/Repositories/QT/TeslaInfotainment/ui/RightScreen/RightScreen.qml</file>
+    <file alias="ui/LeftScreen/LeftScreen.qml">/Users/james/Repositories/QT/TeslaInfotainment/ui/LeftScreen/LeftScreen.qml</file>
+    <file alias="ui/BottomBar/BottomBar.qml">/Users/james/Repositories/QT/TeslaInfotainment/ui/BottomBar/BottomBar.qml</file>
+    <file alias="ui/RightScreen/NavigationSearchBox.qml">/Users/james/Repositories/QT/TeslaInfotainment/ui/RightScreen/NavigationSearchBox.qml</file>
+    <file alias="ui/BottomBar/HVACComponent.qml">/Users/james/Repositories/QT/TeslaInfotainment/ui/BottomBar/HVACComponent.qml</file>
+    <file alias="ui/BottomBar/VolumeControlComponent.qml">/Users/james/Repositories/QT/TeslaInfotainment/ui/BottomBar/VolumeControlComponent.qml</file>
+    <file alias="ui/Assets/carImage.png">/Users/james/Repositories/QT/TeslaInfotainment/ui/Assets/carImage.png</file>
+    <file alias="ui/Assets/carIcon.png">/Users/james/Repositories/QT/TeslaInfotainment/ui/Assets/carIcon.png</file>
+    <file alias="ui/Assets/padlock-unlock.png">/Users/james/Repositories/QT/TeslaInfotainment/ui/Assets/padlock-unlock.png</file>
+    <file alias="ui/Assets/padlock.png">/Users/james/Repositories/QT/TeslaInfotainment/ui/Assets/padlock.png</file>
+    <file alias="ui/Assets/search.png">/Users/james/Repositories/QT/TeslaInfotainment/ui/Assets/search.png</file>
+    <file alias="ui/Assets/medium-volume.png">/Users/james/Repositories/QT/TeslaInfotainment/ui/Assets/medium-volume.png</file>
+    <file alias="ui/Assets/low-volume.png">/Users/james/Repositories/QT/TeslaInfotainment/ui/Assets/low-volume.png</file>
+    <file alias="ui/Assets/high-volume.png">/Users/james/Repositories/QT/TeslaInfotainment/ui/Assets/high-volume.png</file>
+    <file alias="ui/Assets/mute-volume.png">/Users/james/Repositories/QT/TeslaInfotainment/ui/Assets/mute-volume.png</file>
+  </qresource>
+</RCC>
+

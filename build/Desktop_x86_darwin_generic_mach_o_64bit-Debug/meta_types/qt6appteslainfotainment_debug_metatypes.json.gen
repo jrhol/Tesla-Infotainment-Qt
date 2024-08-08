@@ -1,0 +1,324 @@
+[
+    {
+        "classes": [
+            {
+                "className": "AudioController",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "val",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "incrementVolume",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "volumeLevel",
+                        "notify": "volumeLevelChanged",
+                        "read": "volumeLevel",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setVolumeLevel"
+                    }
+                ],
+                "qualifiedClassName": "AudioController",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "volumeLevel",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "volumeLevelChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newVolumeLevel",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "setVolumeLevel",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "audiocontroller.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "HVACHandler",
+                "methods": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "val",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "incrementTargetTemperature",
+                        "returnType": "void"
+                    }
+                ],
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "targetTemperature",
+                        "notify": "targetTemperatureChanged",
+                        "read": "targetTemperature",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setTargetTemperature"
+                    }
+                ],
+                "qualifiedClassName": "HVACHandler",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "TargetTemperature",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "targetTemperatureChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newTargetTemperature",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "setTargetTemperature",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "hvachandler.h",
+        "outputRevision": 68
+    },
+    {
+        "classes": [
+            {
+                "className": "System",
+                "object": true,
+                "properties": [
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 0,
+                        "name": "carLocked",
+                        "notify": "carLockedChanged",
+                        "read": "carLocked",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "bool",
+                        "user": false,
+                        "write": "setcarLocked"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 1,
+                        "name": "outdoorTemp",
+                        "notify": "outdoorTempChanged",
+                        "read": "outdoorTemp",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "int",
+                        "user": false,
+                        "write": "setoutdoorTemp"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 2,
+                        "name": "userName",
+                        "notify": "userNameChanged",
+                        "read": "userName",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setuserName"
+                    },
+                    {
+                        "constant": false,
+                        "designable": true,
+                        "final": true,
+                        "index": 3,
+                        "name": "currentTime",
+                        "notify": "currentTimeChanged",
+                        "read": "currentTime",
+                        "required": false,
+                        "scriptable": true,
+                        "stored": true,
+                        "type": "QString",
+                        "user": false,
+                        "write": "setcurrentTime"
+                    }
+                ],
+                "qualifiedClassName": "System",
+                "signals": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "carLocked",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "carLockedChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "outdoorTemp",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "outdoorTempChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "userName",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "userNameChanged",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "currentTime",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "currentTimeChanged",
+                        "returnType": "void"
+                    }
+                ],
+                "slots": [
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newCarLocked",
+                                "type": "bool"
+                            }
+                        ],
+                        "name": "setcarLocked",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newOutdoorTemp",
+                                "type": "int"
+                            }
+                        ],
+                        "name": "setoutdoorTemp",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newUserName",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "setuserName",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "arguments": [
+                            {
+                                "name": "newCurrentTime",
+                                "type": "QString"
+                            }
+                        ],
+                        "name": "setcurrentTime",
+                        "returnType": "void"
+                    },
+                    {
+                        "access": "public",
+                        "name": "currentTimeTimerTimout",
+                        "returnType": "void"
+                    }
+                ],
+                "superClasses": [
+                    {
+                        "access": "public",
+                        "name": "QObject"
+                    }
+                ]
+            }
+        ],
+        "inputFile": "system.h",
+        "outputRevision": 68
+    }
+]
